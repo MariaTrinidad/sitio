@@ -1,0 +1,135 @@
+
+/*-------------------------container----------------------------------*/
+
+.contenedorHome{
+    position: relative;
+    width: 100%;
+    padding-top: 160px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-bottom: 20px; 
+    align-content: center;
+    /* max-height: 3080px;*/       
+}
+.contenedorParteIzquierda{
+    position: relative;
+    background-color: rgb(73, 0, 37);
+    float: left;
+    width: 15%;
+    margin-left: 10px;
+    align-content: initial;
+    padding: 7px;
+    margin-bottom:200px; 
+}
+.contenedorParteDerecha{
+    position: relative;
+    margin-left: 15px;
+    background-color: #bd6381;
+    width: 80%;
+    margin-right: 10px; 
+    float: right;
+}
+.contenedorHome h3{
+    padding: 7px;
+    margin:10px; 
+
+}
+.contenedorHome ul{
+margin-left: 30px;
+margin-top: 20px;
+}
+.contenedorHome li{
+font-style: italic;
+margin: 15px;
+
+}
+.contenedorParteDerecha h1{
+margin: 20px;
+}
+
+.contenedorParteDerecha p{
+margin: 30px;
+padding: 6px;
+}
+
+
+.contenedorParteDerecha h4{
+margin-left: 15px;
+}
+.contenedorParteDerecha h2{
+margin-left: 10px;
+padding-left: 5px;
+}
+a{
+    color: aliceblue
+    }
+    a:hover{
+        color: #bd6381;
+    }
+
+@media (min-width:600px) and (max-width:1200px){
+    .contenedorParteDerecha{
+        width: 60%;
+        position: relative;
+        float: right;
+        align-content: initial;
+        margin-bottom: 15px;
+        padding-top: 10px;
+    }
+    .contenedorParteIzquierda{
+        position:relative;
+        width: 30%;
+        float: left;
+        padding: 1%;
+        align-content: initial;
+        margin-bottom: 20px;
+        padding-top: 15px;
+    }
+    .contenedorHome h3{
+        padding: 2%;
+        margin: 5px;
+    }
+    .contenedorHome ul{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .contenedorHome li{
+            font-style: italic;
+            margin: 10px;        
+        }
+    .contenedorParteDerecha h4{
+            margin-left: 5px;
+        }
+
+}
+
+@media (max-width: 600px){
+    .contenedorParteDerecha,.contenedorParteIzquierda{
+        position:relative;
+        width: 100%;
+        float: none;
+        padding: 1%;
+        align-content: initial;
+        margin-bottom: 20px;
+        padding-top: 15px;
+    }
+    .contenedorHome h3{
+        padding: 3%;
+        margin: 10px;
+    }
+    .contenedorHome ul{
+        margin-left: 10px;
+        margin-top: 10px;
+        padding-bottom: 3%;
+    }
+    .contenedorHome li{
+        padding-left: 7px;
+            font-style: italic;
+            margin: 10px;   
+            padding-bottom: 10px;     
+        }
+    .contenedorParteDerecha h4{
+            margin-left: 5px;
+        }
+        
+}

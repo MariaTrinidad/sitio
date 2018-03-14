@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+  /*head img{
+    position:fixed;
+    max-width: 1900px;
+    background-size: auto;
+  }*/
+  body {
+    background-color: #000450;
+    font-family: "Open Sans", sans-serif;
+    color: #FFF;
+    overflow-x: hidden; 
+}
+  /* -------------------- General ----------------- */
+  @media(max-width:420px){
+    .contenedor-nav{
+      width:100%;
+      
+    }
+
+  }
+  
+    
+ .pagina{
+  position: relative;
+  /* background-color: #f8a5ae; */
+  width: 100%;
+  margin: 0;
+  max-height: 2400px;
+} 
+  /* --------------------- << - Botonera - >> ----------------- */
+  .contenedor-nav {
+    text-align: initial;
+    position: fixed;
+    margin: 0;
+    z-index: 2;
+    top: 0px;
+    width: 100%;
+    padding: 1%;
+    background-color: black; 
+
+  }
+  
+  .contenedor-nav img{
+    position: absolute; 
+  }
+  .menuNavegador {
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+    margin-top: 0;
+    margin-left: 140px;
+   }
+  
+  .menu-nav__grupo {
+    display: flex;
+    list-style-type: none; }
+  
+  .menu-nav__link {
+    display: block;
+    font-size: 1em;
+    color: #FFF;
+    text-decoration: none;
+    padding: 0 2em; 
+  }
+    .menu-nav__link:hover {
+      color: #f8a5ae; 
+    }
+    @media (min-width: 1920px) {
+      .menu-nav__link {
+        font-size: 1.3em; 
+      } 
+      img{
+        position: relative;
+        text-align: center;
+      }
+      .menuNavegador{
+        margin-left: 0%;
+        line-height: 0;
+         
+      }
+    }
+    @media (max-width: 768px) {
+      .menu-nav__link {
+        font-size: 0.9em;
+        padding: 0 0.6em; } }
+    @media (max-width: 550px) {      
+      .pagina{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }.menu-nav__link {
+        padding: 0 0.4em; 
+      }
+      .contenedor-nav{
+        text-align: center;
+      }
+      .contenedor-nav img{
+          position: static;
+       }
+      .menuNavegador{
+          width: 100%;
+          margin-left: 0;
+          line-height: normal;
+          }
+      .contenedor-nav{
+            /* padding-top: 50px; */
+          }
+    }
+    /* @media (max-width: 380px) {
+      .menu-nav__link {
+        font-size: 0.85em;
+        padding: 0 0.65em; } }
+    @media (max-width: 360px) {
+      .menu-nav__link {
+        font-size: 0.8em;
+        padding: 0 0.55em; } }
+   */
+  .menu-nav__item:first-of-type a {
+    padding-left: 0; }
+  

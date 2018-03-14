@@ -1,0 +1,113 @@
+.contenedido{
+    position: relative;
+    background-color: greenyellow;
+    width: 100%;
+    padding-top: 200px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-bottom: 20px; 
+    align-content: center;
+    height: 1000px;
+}
+.tabla{
+    position: relative;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    align-content: space-between;
+    padding: 4%; 
+    padding-top: 10%;
+    /* padding-bottom: 10px; */
+    /* padding-right: 40px; */
+
+}
+
+table{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid beige;
+    background-color: rgb(83, 80, 255);
+}
+
+td{
+    background-color:#dddddd;
+    border: 1px solid brown;
+    text-align: center;
+    padding: 3%;
+    margin: 7px;
+    height: 10%;
+    color: black;
+
+}
+th {
+    background-color: gray;
+    border: 1px solid brown;
+    text-align: center;
+    padding: 8px;
+    margin: 10px;
+    height: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+@media(max-width: 500px){
+    .contenedido{
+        position: relative;
+        background-color: greenyellow;
+        width: 100%;
+        padding-top: 100px;
+        padding-left: 30px;
+        padding-right:30px;
+        padding-bottom: 20px; 
+        align-content: center;
+        height: 1000px;
+    }
+    .tabla{
+        position: relative;
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        align-content: space-between;
+        padding: 5px; 
+        padding-top: 30%;
+        /* padding-bottom: 10px; */
+        /* padding-right: 40px; */
+    
+    }
+    
+    table{
+        position: relative;
+        width: 100%;
+        padding: 5px;
+        border: 1px solid beige;
+        background-color: rgb(121, 24, 0);
+    }
+    
+    td{
+        background-color:lightpink;
+        border: 1px solid brown;
+        text-align: center;
+        padding: 2px;
+        margin: 7px;
+        height: 10%;
+        color: black;
+    
+    }
+    th {
+        background-color: gray;
+        border: 1px solid brown;
+        text-align: center;
+        padding: 8px;
+        margin: 10px;
+        height: 10px;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+
+}

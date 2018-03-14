@@ -1,0 +1,97 @@
+<?php
+	// Validamos si existe la var de sesión ID
+	session_start();
+	if(isset($_SESSION['id']) == false){
+		header("location: index.html");
+    }
+    include("funciones.php");
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HH New Space</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="css/flexslider.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilohome.css">
+    <!-- <img src="breakdancing-battle-life-males-159273.jpeg"  alt="fondo"  >  -->
+    </head>
+<body>              
+    <div class="contenedor-nav">
+            <a href="http://mixlr.com/trinitymiro/?utm_source=desktop_app&utm_medium=share_section&utm_campaign=31.2&utm_content=livepage_link">
+            <img src="images/logoo.png" alt="logo" width="100px" height="62px" margin-left="20px" ></a>
+            <nav class="menuNavegador">
+                <ul class="menu-nav__grupo">                                
+                    <li class="menu-nav__item">
+                        <a href="indexmenu.php" class="menu-nav__link anchoDeLink">Home</a>
+                    </li>
+                    <li class="menu-nav__item">
+                        <a href="eventos.php" class="menu-nav__link anchoDeLink">Ultimos Eventos</a>
+                    </li>
+                    <li class="menu-nav__item">
+                        <a href="comentarios.php" class="menu-nav__link anchoDeLink">Nuevos Colaboradores</a>
+                    </li>
+                    <li class="menu-nav__item">
+                        <a href="login.php" class="menu-nav__link anchoDeLink">Perfil</a>
+                    </li>
+                    <li class="menu-nav__item">
+                            <a href="radio.html" class="menu-nav__link anchoDeLink">Radio</a>
+                        </li>
+                </ul>
+            </nav><!-- Cierra .main-nav! -->
+        </div>
+  
+        <div class="contenedorHome">
+            <div class="contenedorParteIzquierda">
+                <h3>Historia Rap Alternativo</h3>
+                    </ul>
+                        <h3>Rap Latino</h3>
+                    <ul>
+                        <li><a href="item.php">America Latina</a></li>
+                        <li>
+                            <a href="item.php">Centro America</a>
+                            </li>
+                        <li><a href="item.php">Anglosajona</a>
+                        </li>   
+                    </ul>
+                    <ul>
+                        <h3>Rap Argentino</h3>
+                            <li>
+                                <a href="item2.php">Sindicato Argentino</a>
+                            </li>
+                            <li>
+                                <a href="item2.php">Artistas Conocidos</a>
+                            </li>
+                        </ul>
+                        
+            </div>
+                <div class="contenedorParteDerecha">
+                    <h1>HISTORIA</h1>
+                    <p>El Rap alternativo o Hip Hop alternativo se refiere a los grupos de hip hop que se rehúsan a conformar cualquier estereotipo tradicional del Rap como, por ejemplo, Gangsta, Bass, hardcore, o de fiesta. En vez de eso, ellos mezclan el hip hop con géneros que van desde el funk, jazz y el soul.1​
+                         <br>
+                         El Rap en Argentina comienza con grupos y Mcs como: Jazzy Mel, POD-CRE, Mike Dee (Bola 8), $uper A, Natural Rap, Illya Kuryaki and the Valderramas, Sindicato Argentino del Hip Hop, Tumbas, Encontra del Hombre, entre otros. Se caracterizaban por rapear en un castellano neutro. Estos raperos surgieron de la primera ola de Rap en Argentina a principio de la década del '90. Con esto salieron varios discos importantes, Illya Kuryaki and The Valderramas - Chaco (1995), Actitud Maria Marta - Acorralar a la bestia (1996), Geo Ramma - Pon Paz a tu muerte (1997) y el primer compilado de Rap argentino Nación Hip Hop (1997).
+       <br> Más allá de Jazzy Mel y POD-CRE como primeros referentes, luego los Illia Kuryaki dándolo a conocer, el Rap de Argentina prácticamente no existía en el mercado hasta entonces. Para los incondicionales del Hip Hop fue una gran satisfacción tener un material tangible ya que, en la región, la cultura Hip-Hop ya estaba muy avanzada. En Argentina llegó mucho más tarde debido a que en los años '80, mientras en otros países utilizaban la música como fuente de expresión y liberación cultural caso Brasil, Uruguay, Puerto Rico y Venezuela entre otros, no siendo así para Argentina donde en 1985/87 a solo 5 años de haber terminado con la dictadura militar, el país estaba siendo golpeado por una dura crisis inflacionaria, pobreza y con políticas comerciales, cultural y social todavía con miedos instalados. Por eso en las radios locales después de 1983 músicos como Charly García, Spinetta o León Gieco, por nombrar algunos, ocupaban más del 90% de las músicas escuchadas. Después de 1985 se acentuó aún más con bandas como Virus, Los Abuelos de la Nada, Soda Stereo y los Enanitos Verdes (todas bandas de Rock) del momento que ocupaban el interés y culturalmente alimentaba podemos decir al 100% de la población. Fue también en los años '80 que la cultura del tango perdía el interés de las nuevas masas de jóvenes que preferían el pop, el rock-nacional o el pop internacional de moda, con tan poca apertura de mercado para otros géneros musicales se hacía imposible pensar que pudiera llegar en los 80 un nuevo pensamiento tan contestatario como usaba el Rap en EE. UU. o en otros países con los mismos ideales como el racial, uno de los motores principales instalado en la cultura Hip Hop.
+           <br>                Sin muchos referentes que promovieran éste género en un país golpeado por los militares hasta 1983 y lo que significó la apertura a nuevas culturas y a lo importado, esto solo cambiaría con un personaje aunque no menos importante abriría las puertas a la importación, dolarizó la economía y luego de 1989 con el país mas estable junto el boom cultural de todo importado llegaron en cantidades masivas los discos, cassettes y CD importados de todos los géneros musicales, aun así la mente del público no estaba preparada, en los comienzos de los '90 por ejemplo en Capital Federal, en el Parque Rivadavia se podía conseguir las primeras cintas pirateadas de Rap, Soul, R&B y Reggae, entre otros estilos musicales con raíces negras como novedad para un cierto público que jamás había escuchado esos géneros.
+               <br>       Por eso podemos decir que después de 1990 se dieron muchos factores para la llegada del Rap o cultura Hip-Hop, pero que nunca tuvo un referente o algún artista que lleve la bandera instalándolo como cultura o moda como fue en EE.UU, Brasil, España, Francia por ejemplo y cabe destacar que aun hoy el Hip Hop como movimiento podríamos decir que no es un género musical con grandes ventas y seguidores en el mercado Argentino, para bien o para mal todavía existe un enorme público en el mercado hoy si ya preparado para captar a nuevos artistas de este género. después de tantos años de recitales o cintas piratas, finalmente hoy se concreta un registro perpetuo de estos artistas pasados.
+                   <br>        En la historia esa unión de bandas dio cierta credibilidad, así Nación Hip Hop, mal o bien, pudo marcar un comienzo, un punto en el tiempo que sirvió para llegar a otra gente fuera del Hip Hop y sembrar raíces influyendo directa o indirectamente en nuestra escena. Claro que con el paso del tiempo, esa unión se disolvió y además el público se fue desarrollando en cuanto a exigencias musicales mirando con otro concepto a los Mcs y a las bandas. La evolución del Hip Hop los dejó atrás. Nación Hip Hop fue grabado y mezclado por Adrián Taverna en el estudio Supersónico, producción artística: Zeta Bosio, realizado y dirigido por Alejandro Almada, publicado y distribuido por BMG, Argentina.
+                            La segunda ola de Rap en Buenos Aires, viene aproximadamente en el 98, con el grupo "La Organización", una revolución para lo que se escuchaba en ese entonces. Con un estilo mas hardcore dejando de lado el neutro y utilizando el dialecto argento, Beats menos Funk y más Underground. Sus integrantes eran el bboy y Mc Apolo Novax, Chili Parker y Mustafá Yoda, aunque en los beats estaba Mangaka (Dj Juan Data) nunca se lo reconoció como miembro. Su Disco se iba a llamar "La Diferencia", lamentablemente esto quedó como una promesa para el Hip Hop argentino, ya que nunca se cumplió debido a que antes de que se terminara y publicara Mustafá Yoda decidió separarse y comenzar su carrera en solitario. El resto de la banda decidió seguir pero con otro nombre Koxmoz.
+                            Desde el año 2000 en adelante salieron nuevos artistas y se disolvieron bandas importantes del Rap argentino, dejando a Geo Ramma, primera banda de Rap/Funk como solistas, sin lograr publicar su segundo disco Resistiendo.
+                            En el año 2000 el disco del grupo ya retirado Bola 8 sale a la luz, Bolacalipsis siendo el primer disco profesional de este nuevo milenio en Argentina en cuanto a rap se habla.
+                            Un gran salto para el rap argentino fue el Grammy Latino ganado por la banda en el 2001 por su disco Un Paso A La Eternidad.
+                            Ese mismo año saca su primer referencia como solista Elevado, con un Rap más llevado al lado del R&B y el funk. Por el 2002 se realizan las primeras batallas de freestyle en Córdoba donde Mustafa Yoda se llevó el título los dos primeros años 2002 y 2003.
+                            En el 2003 sale el segundo disco de Actitud Maria Marta ya sin Alika llamado igual que el nombre de la banda. También sale el disco de Apolo 11 - Show Del Flow, entre otras maquetas.
+                            En el 2004 Mustafa Yoda crea el primer sello de hip hop argentino Sudametrica al mismo tiempo saca su disco debut Cuentos Para Chicos Grandes, dejando el Rap argentino en otro nivel.
+                            En el 2005 se dio un gran paso en la historia de este género en la argentina: El grupo Iluminate saca su primer referencia profesional llamada Iluminate al cual muchos llaman el disco promesa de Rap argentino.
+                            En el año 2006 ya se empieza a masificar la música Rap y el Hip Hop, en la televisión, en las calles, etc. También este año salieron varios discos que destacan en el Rap argentino, el gran primer doble-disco de Rap argentino de la gran banda Koxmoz que literalmente revolucionó el Rap en Argentina, y otros discos que inundaron las redes y las calles como el primer disco de Emanero y el de Buenos Aires Subterráneo, el primer vinilo de Rap argentino de mano de Mustafa Yoda con el nombre de Prisma El Elemental, entre otros discos que se mantuvieron mas underground.
+                            A partir de estos años salen empiezan a sonar más Mcs que ya estaban de hace tiempo y también aparecieron nuevos artistas y grupos como Marcianos Crew, Saltos Ornamentales, Núcleo a.k.a. Tinta Sucia, Magnus Mefisto, Tripulación Sursaidaz, G-Fonk, ArsBellum... entre otros con una gran variedad de estilos que le devolvieron al Hip Hop un prestigio y respeto que se creía perdido.
+                            También aparecerían Dante, y Emanero a inicios del 2010 y Matias Carrica, en 2015 (si bien estos últimos arrancaron su carrera mucho antes), entrando en los rankings de televisión y radio. El disco de Emanero - "Arjé" fue un éxito gigante, abriendo las puertas a los más jóvenes al Rap. El disco "Buscavida" de Matias Carrica influyó en la gente que no conocía el género, debido a su triunfo en el reality Elegidos (La música en tus manos), emitido por Telefe. Muchos jóvenes pudieron conocer la cultura urbana gracias Steven Zeta que combino elementos del Hip-Hop Argentino y lo fusiono con el rock gòtico,el rapcore y otros subgeneros, creando así el primer estereotipo de rapero dark con su primer trabajo profesional llamado "Retando a la muerte" donde se puede describir como Hip Hop alternativo. </div>    
+        </div><!--aca cierra contenedor-->            
+</div>
+    
+		
+</body>
+</html>

@@ -1,0 +1,86 @@
+
+
+.contenedor_agregar{
+    width: 100%;
+    padding-top:160px;
+    padding-left: 50px;
+    padding-bottom: 30px;  
+    
+}
+.contenedor_agregar h1, h2{
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+form{
+    width: 50%;
+    padding-top: 10px;
+}
+textarea{
+width: 100%;
+margin-left: -10px;
+height: 100px;
+}
+input{
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: -10px;
+}
+
+.comentarios{
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: initial;
+    
+    padding-left: 10px;
+}
+.comentarios h2 {  
+    padding-left: 30px;
+}
+.comentarios p{
+    padding: 20px;
+}
+.div{
+    text-align: inherit;
+    margin: 20px;
+    margin-left: 0;
+    min-height: 100px;
+}
+.div h2{
+    padding-top:20px;
+    margin: 10px;
+    padding-left:20px; 
+}
+.div p{
+    text-align: inherit;
+    margin-left: 30px;
+}
+.div a{
+    color: honeydew;
+    padding: 4px;
+    border: 1px solid rgb(49, 7, 59);
+    margin: 30px;
+    /* background-color: rgb(147, 95, 160); */
+    font-family: sans-serif;
+    text-decoration-line: none;
+    margin-left: -2px;
+    
+}
+.div a:hover{
+    color: goldenrod;
+   
+} 
+.div  {
+    border-color: 2px solid darkgray;
+background-color: rgb(31, 12, 63);
+text-align: initial;
+}
+.cerrar{
+    text-align: right;
+}
+.cerrar a{
+    color: wheat;
+    margin-top: 100px;
+    background-color:black;;
+}
+.cerrar a:hover{
+    color: darkmagenta;
+}
